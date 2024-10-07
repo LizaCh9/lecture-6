@@ -1,0 +1,162 @@
+li {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 12.89px;
+    color: #000000;
+    margin-right: 35px;
+    margin-top: 21px;
+    vertical-align: middle;
+    margin-bottom: 42px;
+} 
+.home {
+    margin-left: 30px;
+}
+.title {
+    width: 120px;
+    height: 28px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+}
+
+.trending {
+    margin: 40px 20px;
+}
+
+.trending h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 30%;
+}
+
+.card-images {
+    width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin: 15px 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px;
+    display: inline-block;
+}
+
+.card span {
+    font-size: 12px;
+    color: #999;
+    margin: 10px;
+    display: inline-block;
+}
+.clock {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    opacity: 60%;
+    margin-left: 10px;
+
+}
+.happening-now {
+    margin: 40px 20px;
+}
+
+.happening-now h1 {
+    display: inline-block;
+    font-size: 24px;
+    width: 196px;
+    height: 28px;
+    font-weight: 800;
+    line-height: 28.13px
+}
+.forest-photo {
+    display: inline-block;
+    margin-left: 941px;
+}
+
+.bridge-photo {
+    display: inline-block;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    width: 1440px;
+    height: 201px;
+    background-color:#243043;
+    padding: 20px 0;
+    color: #ccc;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    align-items: center;
+}
+
+.footer-column{
+    color:  #818687;
+    
+}
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    color: #818687;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+
+
+.middle-column p {
+    color: #FFFFFF;
+    font-weight: 400;
+    text-align: center;
+    font-size: 12px;
+}
+
+.logo-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-column img {
+    margin-bottom: 10px;
+    width: 50px;
+    height: auto;
+}
+
+.logo-column p {
+    font-size: 16px;
+    color: #ccc;
+}
+
